@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Ball Room",
+        "desc":"Enter a realm of grandeur and magnificence with our awe-inspiring grand ballroom, the epitome of luxury. With its expansive space and regal design, our grand ballroom sets the stage for extraordinary events. Immerse yourself in a world of elegance as you marvel at the stunning architecture and exquisite detailing. The grand ballroom's majestic atmosphere, complemented by enchanting lighting and lavish decor, creates an unforgettable setting for the most grandiose occasions. Whether it's a prestigious gala or a lavish celebration, our grand ballroom offers an unrivaled experience. Embark on a journey of opulence and create timeless memories in our magnificent grand ballroom.",
+        "price":"$2,500 per event",
+        "url":"/detail"
+    },
+    {
+        "id":2,
+        "name":"luxury Room",
+        "desc":"Enter a realm of grandeur and magnificence with our awe-inspiring grand ballroom, the epitome of luxury. With its expansive space and regal design, our grand ballroom sets the stage for extraordinary events. Immerse yourself in a world of elegance as you marvel at the stunning architecture and exquisite detailing. The grand ballroom's majestic atmosphere, complemented by enchanting lighting and lavish decor, creates an unforgettable setting for the most grandiose occasions. Whether it's a prestigious gala or a lavish celebration, our grand ballroom offers an unrivaled experience. Embark on a journey of opulence and create timeless memories in our magnificent grand ballroom.",
+        "price":"$3,000 per event",
+        "url":"/luxuryroom"
+    },
+    {
+        "id":3,
+        "name":"Grand Room",
+        "desc":"Enter a realm of grandeur and magnificence with our awe-inspiring grand ballroom, the epitome of luxury. With its expansive space and regal design, our grand ballroom sets the stage for extraordinary events. Immerse yourself in a world of elegance as you marvel at the stunning architecture and exquisite detailing. The grand ballroom's majestic atmosphere, complemented by enchanting lighting and lavish decor, creates an unforgettable setting for the most grandiose occasions. Whether it's a prestigious gala or a lavish celebration, our grand ballroom offers an unrivaled experience. Embark on a journey of opulence and create timeless memories in our magnificent grand ballroom.",
+        "price":"$4,500 per event",
+        "url":"/grandRoom"
+    }
+]

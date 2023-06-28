@@ -1,14 +1,20 @@
 import React from "react";
 import Nav from "./Nav";
 import appLogo from "./logoRevent.png";
+import { useContext } from 'react';
+import AutoContext from './context';
+
 
 function ReservationForm() {
+
+  const value = useContext(AutoContext)
+
   return (
     <div>
       <Nav/>
       <header>
         <img src={appLogo} className="bannerImg" alt="Revent Logo" />
-        <p className="loginName">Login Name goes here</p>
+        <p className="loginName">{value}</p>
       </header>
       <article>
         <section>

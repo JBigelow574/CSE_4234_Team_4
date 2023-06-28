@@ -1,21 +1,27 @@
 import React from "react";
 import Nav from "./Nav";
 import appLogo from "./logoRevent.png";
+import { useContext } from 'react';
+import AutoContext from './context';
+import grandRoom from './images/grand room.jpg';
 
 function ProductDetails() {
+
+  const value = useContext(AutoContext)
+
   return (
     <div>
       <Nav/>
       <header>
         <img src={appLogo} className="bannerImg" alt="Revent Logo" />
-        <p className="loginName">Login Name goes here</p>
+        <p className="loginName">{value}</p>
       </header>
       
       <main>
         <h2>Grand Ballroom</h2>
         <div className="product-grid">
           <div className="room-info">
-            <img src="images/grand room.jpg" alt="" />
+            <img src={grandRoom} />
             <label className="text-uppercase">Grand Ballroom</label>
             <p>
               Enter a realm of grandeur and magnificence with our awe-inspiring

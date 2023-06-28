@@ -5,10 +5,10 @@ import appLogo from "./logoRevent.png";
 function ContactUs() {
   return (
     <div>
-      <Nav/>
+      <Nav />
       <header>
         <img src={appLogo} className="bannerImg" alt="Revent Logo" />
-        <p className="loginName">Login Name goes here</p>
+        <p className="loginName">Placeholder Value</p>
       </header>
       <main></main>
       <footer>&copy;Revent</footer>

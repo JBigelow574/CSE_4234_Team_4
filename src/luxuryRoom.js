@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import appLogo from "./logoRevent.png";
+import luxuryRoom from './images/luxuryroom.jpg';
 
 function LuxuryBallroom() {
   return (
@@ -11,10 +12,11 @@ function LuxuryBallroom() {
         <p className="loginName">Login Name goes here</p>
       </header>
       <main>
+      
         <h2>Luxury Ballroom</h2>
         <div className="product-grid">
           <div className="room-info">
-            <img src="images/grand room.jpg" alt="" />
+          <img src={luxuryRoom}/>
             <label className="text-uppercase">Luxury Ballroom</label>
             <p>
               Enter a realm of grandeur and magnificence with our awe-inspiring
