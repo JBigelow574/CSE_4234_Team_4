@@ -23,8 +23,8 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home email={email} />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/list" element={<List />} />
+            <Route path="/contact" element={<Contact email={email}/>} />
+            <Route path="/list" element={<List email={email}/>} />
             <Route path="/createNew" element={<CreateNew />} />
             <Route path="/detail" element={<Detail />} />
             <Route path="/grandRoom" element={<GrandRoom />} />

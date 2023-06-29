@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import Nav from "./Nav";
 import appLogo from "./logoRevent.png";
+import AutoContext from './context';
 
-function ContactUs() {
+
+function ContactUs({ email }) {
+  const value = useContext(AutoContext);
+
   return (
     <div>
       <Nav />
       <header>
         <img src={appLogo} className="bannerImg" alt="Revent Logo" />
-        <p className="loginName">Placeholder Value</p>
+        <p className="loginName">{email}</p>
       </header>
       <main></main>
       <footer>&copy;Revent</footer>

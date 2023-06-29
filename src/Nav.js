@@ -12,13 +12,13 @@ function Nav(){
                             <a className="navbar-brand">Revent</a>
                         </div>
                         <ul className="nav navbar-nav">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/contact">Contact Us</a></li>
-                            <li><a href="list">Product Details</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/contact">Contact Us</Link></li>
+                            <li><Link to="/list">Product Details</Link></li>
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="/signup"><span className="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                            <li><a href="/login"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><Link to="/signup"><span className="glyphicon glyphicon-user"></span> Sign Up</Link></li>
+                            <li><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></li>
                         </ul>
                     </div>          
                 </nav>
