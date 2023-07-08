@@ -1,15 +1,18 @@
 import React from "react";
 import Nav from "./Nav";
 import appLogo from "./logoRevent.png";
+import { useContext } from 'react';
+import AutoContext from './context';
 import luxuryRoom from './images/luxuryroom.jpg';
 
 function LuxuryBallroom() {
+  const value = useContext(AutoContext)
   return (
     <div>
       <Nav/>
       <header>
         <img src={appLogo} className="bannerImg" alt="Revent Logo" />
-        <p className="loginName">Login Name goes here</p>
+        <p className="loginName">{value}</p>
       </header>
       <main>
       

@@ -1,15 +1,19 @@
 import React from "react";
 import Nav from "./Nav";
 import appLogo from "./logoRevent.png";
+import { useContext } from 'react';
+import AutoContext from './context';
 import ballRoom from './images/ballroom.jpg';
+import { Link } from "react-router-dom";
 
 function Ballroom() {
+  const value = useContext(AutoContext)
   return (
     <div>
       <Nav/>
       <header>
       <img src={appLogo} className="bannerImg" alt="Revent Logo"/>
-        <p className="loginName">Login Name goes here</p>
+      <p className="loginName">{value}</p>
       </header>
       
       <main>
@@ -21,7 +25,7 @@ function Ballroom() {
             <p>Enter a realm of grandeur and magnificence with our awe-inspiring grand ballroom, the epitome of luxury. With its expansive space and regal design, our grand ballroom sets the stage for extraordinary events. Immerse yourself in a world of elegance as you marvel at the stunning architecture and exquisite detailing. The grand ballroom's majestic atmosphere, complemented by enchanting lighting and lavish decor, creates an unforgettable setting for the most grandiose occasions. Whether it's a prestigious gala or a lavish celebration, our grand ballroom offers an unrivaled experience. Embark on a journey of opulence and create timeless memories in our magnificent grand ballroom.</p>
             <p>Dimensions show a 48' by 128' room totaling 6,144 sq ft</p>
             <p className="val">$3,500 per event</p>
-            <button onClick={() => window.location.href='/createNew'} className="button">Reserve/Availability</button>
+            <button><Link to="/createNew">Reserve/Availability</Link></button>
           </div>
         </div>
       </main>

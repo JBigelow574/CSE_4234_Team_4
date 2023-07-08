@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
+
+
 function Nav(){
+    
+        
 
     return (
         
@@ -17,10 +23,11 @@ function Nav(){
                             <li><Link to="/list">Product Details</Link></li>
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
+                            <li><a href="/">Log Out</a></li>
                             <li><Link to="/signup"><span className="glyphicon glyphicon-user"></span> Sign Up</Link></li>
                             <li><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></li>
                         </ul>
-                    </div>          
+             </div>          
                 </nav>
             </div>
         

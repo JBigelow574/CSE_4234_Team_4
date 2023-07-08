@@ -4,6 +4,7 @@ import appLogo from "./logoRevent.png";
 import { useContext } from 'react';
 import AutoContext from './context';
 import grandRoom from './images/grand room.jpg';
+import { Link } from "react-router-dom";
 
 function ProductDetails() {
 
@@ -38,14 +39,7 @@ function ProductDetails() {
             </p>
             <p>Dimensions show a 96' by 256' room totaling 24,476 sq ft</p>
             <p className="val">$4,500 per event</p>
-            <button
-              onClick={() => {
-                window.location.href = "/createNew";
-              }}
-              className="button"
-            >
-              Reserve/Availability
-            </button>
+            <button><Link to="/createNew">Reserve/Availability</Link></button>
           </div>
         </div>
       </main>
